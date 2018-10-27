@@ -1,0 +1,76 @@
+@font-face {
+	font-family: 'TrueLies';
+	src: url(../fonts/TrueLies.ttf) format('truetype');
+	}
+@font-face {
+  font-family: 'contb';
+  src: url(../fonts/contb.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'contl';
+  src: url(../fonts/contl.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'contm';
+  src: url(../fonts/contm.ttf) format('truetype');
+}
+header img {
+  display:block;
+  width:auto;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-family: contm;
+  font-size: 120%;
+}
+nav {
+  background-color: white;
+  text-align: center;
+  font-family: contm;
+  position: sticky;
+  font-size: 200%;
+  top: 0;
+  z-index: 10;
+
+}
+nav a {
+  display: inline-block;
+  text-decoration: none;
+
+  padding: 10px;
+  color: black;
+
+
+}
+nav a:hover {
+  transition: 0.5s;
+  background-color: black;
+  color: white;
+}
+
+
+.page_title {
+  color: white;
+  font-family: TrueLies;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+#presentation {
+  height: 100vh;
+  background: url(../img/groupe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
